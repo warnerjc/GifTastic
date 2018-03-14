@@ -1,0 +1,26 @@
+button {
+    margin: 5px 10px 5px 10px; 
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.container {
+    margin-bottom: 32px;
+}
+
+.card {
+    padding: 5px;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 3.0em;
+    margin: auto;
+}
+
+.center-self {
+    margin: auto;
+    text-align: center;
+}

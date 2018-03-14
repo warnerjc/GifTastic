@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gif Tastic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- link to Bootstrap 4.0.0 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+</head>
+
+<body>
+    <header class="container">
+        <div class="jumbotron">
+            <div class="row center-self">
+                <h1>Gif Tastic</h1>
+            </div>
+            <div class="input-group col-md-6 col-xm-6 mb-3 center-self">
+                <div class="input-group-prepend">
+                    <input class="btn btn-outline-secondary" type="button" id="submit-topic" value="Submit">
+                </div>
+                <input type="text" class="form-control" placeholder=" a Sport Topic" id="new-topic">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12" id="topic-buttons">
+                <!-- div to append buttons -->
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="row topic-gifs">
+            <!-- div element to hold gifs after button pressed
+             empty at page load, until button pressed -->
+        </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
